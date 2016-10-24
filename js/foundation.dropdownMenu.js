@@ -286,7 +286,7 @@ class DropdownMenu {
     if (this.options.closeOnClick) { this._addBodyHandler(); }
     /**
      * Fires when the new dropdown pane is visible.
-     * @event DropdownMenu#show
+     * @event dropdownmenu#show
      */
     this.$element.trigger('show.zf.dropdownmenu', [$sub]);
   }
@@ -331,7 +331,7 @@ class DropdownMenu {
       }
       /**
        * Fires when the open menus are closed.
-       * @event DropdownMenu#hide
+       * @event dropdownmenu#hide
        */
       this.$element.trigger('hide.zf.dropdownmenu', [$toClose]);
     }
